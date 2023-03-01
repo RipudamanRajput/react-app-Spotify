@@ -1,0 +1,124 @@
+.inte--mainlyout {
+    max-width: calc(100% - 241px ) !important;
+    margin-left: auto;
+    background: linear-gradient(3deg, black, #000000c9);
+    height: 100%;
+}
+.inte--image {
+    width: 254px;
+    height: 254px;
+    
+}
+.inte--banner {
+    background: #5b5b5b;
+    padding: 6rem 1.2rem 2.1rem 4.1rem;
+}
+.inte--banner {
+    display: flex;
+    gap: 3rem;
+}
+.inte--playlist-info {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.inte--playlist-title {
+    font-size: 6rem;
+    margin: 0;
+    line-height: 1.4;
+}
+.inte--playlist-info h3 {
+    margin: 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+.inte-playlist--description {
+    color: lightgray;
+    margin-bottom: 0;
+}
+.inte--playlist-grid table {
+    width: 100%;
+    padding: 2rem 1.8rem;
+}
+.inte--playlist-grid thead th {
+    color: #9d9d9d;
+    font-size: 14px;
+    font-weight: 500;
+}
+.inte--playlist-grid {
+    color: lightgray;
+    font-size: 13px;
+    font-weight: 500;
+}
+.list-image {
+    display: flex;
+    gap: 0.5rem;
+}
+.inte-auther-names {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+.inte-auther-names .title {
+    color: white;
+    font-size: 14px;
+}
+.inte--playlist-grid thead th {
+    padding-bottom: 1rem;
+}
+.inte--playlist-grid tbody td {
+    padding-top: 1rem;
+}
+
+.inte--mediaPlayer {
+    padding: 0.8rem 1.2rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #2a2a2a;
+    color: #fff;
+}
+.inte--curently-playing {
+    
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 1rem;
+}
+.inte-current-auther span {
+    font-size: 12px;
+    font-weight: 400;
+}
+.inte-current-title {
+    font-weight: 500;
+    display: block;
+    padding-bottom: 0.2rem;
+}
+.media-controler {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.inte--mediaPlayer > div {
+    flex: 1 1 auto;
+}
+.inte--mediaPlayer {
+    display: flex;
+    align-items: center;
+}
+.song-progress {
+    display: flex;
+    align-items: center;
+}
+.song-progress input[type="range"] {
+    width: 200px;
+    height: 3px;
+}
+.song-progress input[type="range"] {
+    width: 200px;
+    height: 3px;
+    margin: 0 10px 0 10px;
+}

@@ -1,0 +1,41 @@
+.inte-sidebar {
+    position: fixed;
+    left: 0;
+    width: 216px;
+    padding: 0.8rem;
+    height: 100vh;
+    top: 0;
+    background: #121212;
+}
+.inte-sidebar svg.spotify-logo--text {
+    stroke: #fff;
+    color: #fff;
+}
+ul, li {
+    list-style: none;
+}
+.inte-sidebar li {
+    color: #a7a7a7;
+}
+a.inte--logo {
+    padding: 1.6rem 2rem;
+    display: block;
+}
+.inte--top-icons-Menus li {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.inte-top-subMenus .inte--top-icons-Menus li {
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.inte-top-subMenus {
+    padding-top: 0.5rem;
+    border-bottom: 1px solid #575757;
+}
+.inte-boottom-Menus li {
+    padding-bottom: 0.3rem;
+    font-size: 15px;
+}
