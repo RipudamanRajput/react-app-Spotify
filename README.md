@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Spotify Controller App
+This project is a remote Spotify controller that allows users to manage music playback without directly accessing their mobile device, tablet, or computer. With this app, you can easily play, pause, skip tracks, or move to the next song seamlessly. It's designed for convenience, enabling users to control Spotify from anywhere using a simplified interface.
 
 ## Available Scripts
 
